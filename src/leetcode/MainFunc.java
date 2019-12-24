@@ -10,13 +10,13 @@ public class MainFunc {
 
 		//int[][] nums = {{0,0,0},{0,1,0},{0,0,0}};
 		
-		LC017 lc = new LC017();
+		LC038 lc = new LC038();
 		
 		//List<String> list = lc.generateParenthesis(3);
 		
 		//System.out.println(list);
-		
-		System.out.print(lc.letterCombinations("23"));
+
+		System.out.print(lc.countAndSay(10));
 	}
 
 }

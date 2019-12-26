@@ -1,6 +1,6 @@
 package leetcode;
 
-public class LC91 {
+public class LC091 {
 	
     public static int numDecodings(String s) {
     	//×´Ì¬×ªÒÆ·½³Ì

@@ -31,7 +31,6 @@ public class LC105 {
         		break;
         	}
         }
-        Array
         return rootPosition;
     }
     

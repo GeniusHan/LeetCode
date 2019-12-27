@@ -15,8 +15,10 @@ public class MainFunc {
 		//List<String> list = lc.generateParenthesis(3);
 		
 		//System.out.println(list);
+		int[] original = new int[] {1,2,3,4,5,6};
+		int[] news = Arrays.copyOfRange(original, 0, 2);
 
-		System.out.print(lc.countAndSay(10));
+		System.out.print(Arrays.copyOfRange(original, 0, 2).toString());
 	}
 
 }

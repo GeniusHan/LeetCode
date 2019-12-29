@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Example27_RemoveElement {
+public class LC027 {
 
 	
     public int removeElement(int[] nums, int val) {

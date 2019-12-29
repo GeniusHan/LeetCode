@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class Example53_MaxSubArray {
+public class LC051 {
 	
 	/*
 	 * ¶¯Ì¬¹æ»®

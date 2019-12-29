@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Example33_Search {
+public class LC033 {
 
 	
 	public int search(int[] nums, int target) 

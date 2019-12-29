@@ -5,7 +5,7 @@ package leetcode;
 	机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为“Finish”）。
 	问总共有多少条不同的路径？
  */
-public class Example63_UniquePaths {
+public class LC063 {
 
     public static int uniquePathsWithObstacles(int[][] obstacleGrid) {
         //无障碍情况下，状态转移方程

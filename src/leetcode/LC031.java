@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class Example31_NextPermutation {
+public class LC031 {
 	
 	
 	// 从后往前找到第一个前一位小于后一位的字符

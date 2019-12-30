@@ -10,15 +10,12 @@ public class MainFunc {
 
 		//int[][] nums = {{0,0,0},{0,1,0},{0,0,0}};
 		
-		LC038 lc = new LC038();
+		LC067 lc = new LC067();
 		
 		//List<String> list = lc.generateParenthesis(3);
 		
-		//System.out.println(list);
-		int[] original = new int[] {1,2,3,4,5,6};
-		int[] news = Arrays.copyOfRange(original, 0, 2);
 
-		System.out.print(Arrays.copyOfRange(original, 0, 2).toString());
+		System.out.print(lc.addBinary("1", "111"));
 	}
 
 }

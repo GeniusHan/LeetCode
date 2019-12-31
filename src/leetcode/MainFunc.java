@@ -10,12 +10,12 @@ public class MainFunc {
 
 		//int[][] nums = {{0,0,0},{0,1,0},{0,0,0}};
 		
-		LC067 lc = new LC067();
+		LC168 lc = new LC168();
 		
 		//List<String> list = lc.generateParenthesis(3);
 		
 
-		System.out.print(lc.addBinary("1", "111"));
+		System.out.print(lc.convertToTitle(701));
 	}
 
 }

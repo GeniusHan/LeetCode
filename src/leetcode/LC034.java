@@ -12,10 +12,10 @@ public class LC034 {
         	return new int[] {-1, -1};
         }
         int start = targetPosition, end = targetPosition;
-        while(nums[start]==nums[start-1]) {
+        while(start!=0 && nums[start]==nums[start-1]) {
         	start--;
         }
-        while(nums[end]==nums[end+1]) {
+        while(end!=nums.length-1 && nums[end]==nums[end+1]) {
         	end++;
         }
         return new int[] {start, end};

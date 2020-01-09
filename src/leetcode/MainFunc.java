@@ -10,12 +10,12 @@ public class MainFunc {
 
 		//int[][] nums = {{0,0,0},{0,1,0},{0,0,0}};
 		
-		LC039 lc = new LC039();
+		LC047 lc = new LC047();
 		
 		//List<String> list = lc.generateParenthesis(3);
 		
 
-		System.out.print(lc.combinationSum(new int[]{2,3,6,7}, 7));
+		System.out.print(lc.permuteUnique(new int[]{1, 1, 2}));
 	}
 
 }

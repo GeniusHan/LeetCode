@@ -10,12 +10,12 @@ public class MainFunc {
 
 		//int[][] nums = {{0,0,0},{0,1,0},{0,0,0}};
 		
-		LC047 lc = new LC047();
+		LC078 lc = new LC078();
 		
 		//List<String> list = lc.generateParenthesis(3);
 		
 
-		System.out.print(lc.permuteUnique(new int[]{1, 1, 2}));
+		System.out.print(lc.subsets(new int[] {1,2,3}));
 	}
 
 }

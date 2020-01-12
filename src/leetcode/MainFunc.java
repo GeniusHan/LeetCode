@@ -10,12 +10,12 @@ public class MainFunc {
 
 		//int[][] nums = {{0,0,0},{0,1,0},{0,0,0}};
 		
-		LC090 lc = new LC090();
+		LC043 lc = new LC043();
 		
 		//List<String> list = lc.generateParenthesis(3);
 		
 
-		System.out.print(lc.subsetsWithDup(new int[] {1,1,2}));
+		System.out.print(lc.multiply("123", "456"));
 	}
 
 }

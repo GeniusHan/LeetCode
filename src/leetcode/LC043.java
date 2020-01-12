@@ -15,7 +15,13 @@ public class LC043 {
     }
     
     
-    
+    private String f(String num1, String num2) {
+    	if(num1.charAt(0)=='0' || num2.charAt(0)=='0') {
+    		return "0";
+    	}
+    	int l2 = num2.length();
+    	int num = 0;
+    }
 
     //两数相加
     private String plus(String num1, String num2) {

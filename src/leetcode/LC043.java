@@ -21,6 +21,8 @@ public class LC043 {
     	}
     	int l2 = num2.length();
     	int num = 0;
+
+    	return "";
     }
 
     //两数相加

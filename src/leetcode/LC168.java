@@ -7,7 +7,9 @@ public class LC168 {
     public String convertToTitle(int n) {
         // ¼Ó64
     	if(n>26) {
-    		sb.append(convertToTitle(n-26))
+    		sb.append(convertToTitle(n-26));
     	}
+
+    	return "";
     }
 }

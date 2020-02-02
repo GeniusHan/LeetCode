@@ -4,7 +4,7 @@ public class LC028 {
 
 	//×Ö·û´®Æ¥Åä KMP
     public int strStr(String haystack, String needle) {
-        
+        return 0;
     }
     
     private int[] createKMP(String needle) {
@@ -16,6 +16,6 @@ public class LC028 {
     	while(loc < length) {
     		
     	}
-    	
+    	return null;
     }
 }
